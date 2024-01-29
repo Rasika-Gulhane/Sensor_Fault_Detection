@@ -30,4 +30,6 @@ Below repo help you to obtain requried credentials
 ```
 https://github.com/Big-Data-01/confluent-tutorial.git
 ```
-Obtain Kafka crediatials pasted in credentials.md
+Obtain Kafka (producer) crediatials pasted in credentials.md
+
+

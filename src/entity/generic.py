@@ -63,7 +63,7 @@ class Generic:
         
 
     @classmethod
-    def get_schema_to_produce_consume_data(cls, file_path):
+    def get_schema_to_produce_consume_data(cls, file_path):    #1
         columns = next(pd.read_csv(file_path, chunksize=10)).columns
 
         schema = dict()
