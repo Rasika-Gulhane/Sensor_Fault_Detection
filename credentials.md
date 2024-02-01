@@ -14,8 +14,8 @@ https://pkc-6ojv2.us-west4.gcp.confluent.cloud:443
 Endpoint schema url:
 https://psrc-wrp99.us-central1.gcp.confluent.cloud
 
-### Schema Registy. Confluent Cloud API key: lsrc-z6jqg0 
 
+### Schema Registy. Confluent Cloud API key: lsrc-z6jqg0 
 API key:
 PFANYTEZOVD4V35S
 
