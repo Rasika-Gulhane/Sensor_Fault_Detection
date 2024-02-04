@@ -17,7 +17,7 @@ def consumer_using_sample_file(topic,file_path):
 
     consumer_conf = sasl_conf()
     consumer_conf.update({
-        'group.id': 'group1',
+        'group.id': 'group1',    #anygroup name
         'auto.offset.reset': "earliest"})
 
     consumer = Consumer(consumer_conf)
@@ -33,7 +33,7 @@ def consumer_using_sample_file(topic,file_path):
             if msg is None:
                 continue
 
-            record: Generic = json_deserializer(msg.value(), SerializationContext(msg~.topic(), MessageField.VALUE))
+            record: Generic = json_deserializer(msg.value(), SerializationContext(msg.topic(), MessageField.VALUE))
 
             # mongodb.insert(collection_name="car",record=car.record)
 
