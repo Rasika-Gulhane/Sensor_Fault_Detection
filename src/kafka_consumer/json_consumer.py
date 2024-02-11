@@ -17,7 +17,7 @@ def consumer_using_sample_file(topic,file_path):
 
     consumer_conf = sasl_conf()
     consumer_conf.update({
-        'group.id': 'group1',    #anygroup name
+        'group.id': 'group2',    #anygroup name
         'auto.offset.reset': "earliest"})
 
     consumer = Consumer(consumer_conf)
